@@ -1,0 +1,19 @@
+# Python caches
+__pycache__/
+*.pyc
+
+# Large sequencing/intermediate outputs
+results/**/*.bam
+results/**/*.bai
+results/**/*.paf
+results/**/*.png
+results/**/*.fastq
+results/**/*.fastq.gz
+results/**/*.fq
+results/**/*.fq.gz
+
+# Keep zipped/raw read deliveries and unpacked read dirs out of git by default
+data/reads/
+
+# Temporary BLAST outputs can be large/noisy
+results/**/*.xml

@@ -1,0 +1,4 @@
+query	qlen	qstart	qend	strand	target	tstart	tend	nmatch	alnlen	identity	query_cov	target_cov	mapq
+795_LFFHG8_1	367	0	366	+	gblock_f1r1	0	367	362	367	0.9864	0.9973	1.0000	60
+3446_LFFHG8_1	297	0	293	+	gblock_f1r1	0	300	291	300	0.9700	0.9865	0.8174	60
+3685_LFFHG8_1	256	0	167	+	gblock_f1r1	0	163	149	174	0.8563	0.6523	0.4441	60

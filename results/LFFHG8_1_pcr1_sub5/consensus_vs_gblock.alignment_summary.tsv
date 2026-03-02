@@ -1,0 +1,11 @@
+metric	value
+alignment_columns	1611
+ref_length_ungapped	367
+cons_length_ungapped	1611
+compared_positions_both_nongap	367
+matches_both_nongap	193
+identity_both_nongap	0.5258855585831063
+best_exact_run_len	27
+best_exact_run_ref_0based	340-367
+best_exact_run_ref_1based	341-367
+best_exact_run_cons_0based	1583-1610

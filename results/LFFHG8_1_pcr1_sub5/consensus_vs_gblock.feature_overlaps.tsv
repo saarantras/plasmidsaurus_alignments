@@ -1,0 +1,3 @@
+run_len	run_ref_start_0	run_ref_end_0	run_ref_1based	run_cons_start_0	run_cons_end_0	overlap_bp	feature_type	feature_id	feature_strand	feature_start_0	feature_end_0
+27	340	367	341-367	1583	1610	20	primer	R1 primer	-	347	367
+27	340	367	341-367	1583	1610	19	primer	R3 primer	-	348	367

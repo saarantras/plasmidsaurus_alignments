@@ -1,0 +1,110 @@
+CLUSTAL O(1.2.4) multiple sequence alignment
+
+
+consensus_LFFHG8           TGACTGGAGTTCAGACGTGTGCTCTTCCGATCTGGCACTGGTACGACTGGNATGAGGGGT
+reference_gblock_f1r1      ------------------------------------AATGAT------------------
+                                                               * ** *                  
+
+consensus_LFFHG8           CAGCAATGGAATCCAACCACCTCTNAACTNCAGNNACTNNAATANANGCNNNNGGNGCNN
+reference_gblock_f1r1      -AATAATCGCGTCGACGAACCTCTAGAAGT------------------------------
+                            *  *** *  ** *   ******  *                                 
+
+consensus_LFFHG8           NAATTACCCACTCCCGACCCGGGGAGGTAGTGACGAAAAATAACAATACAGGACTCTTTC
+reference_gblock_f1r1      ------------------------------------------------------------
+                                                                                       
+
+consensus_LFFHG8           GAGGCCCTGTAATTGGAATGAGTCCACTTTAAATCCTTTAACGAGGATCCATTGGAGGGC
+reference_gblock_f1r1      ------------------------------------------------------------
+                                                                                       
+
+consensus_LFFHG8           AAGTCTGGTGCCAGCAGCCGCGGTAATTCCAGCTCCAATAGCGTATATTAAAGTTGCTGC
+reference_gblock_f1r1      ------------------------------------------------------------
+                                                                                       
+
+consensus_LFFHG8           AGTTAAAAAGCTCGTAGTTGGATCTTGGGAGCGGGCGGGCGGTCCGCCGCGAGGCGAGCC
+reference_gblock_f1r1      ------CGATCGGCTAGTCAGATCGGAAGAG---------CGTCGGCGGCCAAGCTAG--
+                                   * *   ****  ****    ***          *** ** ** * ** **  
+
+consensus_LFFHG8           ACCGCCCGTCCCCGCCCCTTGCCTCTCGGCGCCCCCTCGATGCTCTTAGCTGAGTGTCCC
+reference_gblock_f1r1      --------TCGGGGCGGCCGGCCGCTTCGAGCAGACATGAT-------------------
+                                   **   **  *  *** **  * **   *  ***                   
+
+consensus_LFFHG8           GCGGGGCCCGAAGCGTTTACTTTGAAAAAATTAGAGTGTTCAAAGCAGGCCCGAGCCGCC
+reference_gblock_f1r1      -------------AAGATACATTGATGA-----GTTTGGACAAACCACAACTAGAATGCA
+                                            *** ****  *     *  **  **** **   *      ** 
+
+consensus_LFFHG8           TGGATACCGCAGCTAGGAATAATGGAATNGGACCGCGGTTCTATTTTGTTGGTTTTCGGA
+reference_gblock_f1r1      GTGAAAAAAATGCTTTA-TTTGTGAAATT----TGTGATGCTATTGCTTTATTTGTAACC
+                             ** *     ***     *  ** ***      * * * *****   **  ** *    
+
+consensus_LFFHG8           ACTGAGGCCATGATTAAGAGGGACGGCCGGGGGCATTCGTATTGCGCCGCTAGAGGTGAA
+reference_gblock_f1r1      ATTATAAGCTGCAATAA-------------------------------------------
+                           * *     *   * ***                                           
+
+consensus_LFFHG8           ATTCTTGGACCGGCGCAAGACGGACCAGAGCGAAAGCATTTGCCAAGAATGTTTTCATTA
+reference_gblock_f1r1      ----------------------------------ACAAGTTAACA---------------
+                                                             *  * **  **               
+
+consensus_LFFHG8           ATCAAGAACGAAAGTCGGAGGTTCGAAGACGATCAGATACCGTCGTAGTTCCGACCATAA
+reference_gblock_f1r1      ------------------------------------------------------------
+                                                                                       
+
+consensus_LFFHG8           ACGATGCCGACCGGCGATGCGGCGGCGTTATTCCCATGACCCGCCGGGCAGCTTCCGGGA
+reference_gblock_f1r1      ------------------------------------------------------------
+                                                                                       
+
+consensus_LFFHG8           AACCAAAGTCTTTGGGTTCCGGGGGGAGTATGGTTGCAAAGCTGAAACTTAAAGGAATTG
+reference_gblock_f1r1      ------------------------------------------------------------
+                                                                                       
+
+consensus_LFFHG8           ACGGAAGGGCACCACCAGGAGTGGAGCCTGCGGCTTAATTTGACNCAACACGGGAAACCT
+reference_gblock_f1r1      ------------------------------------------------------------
+                                                                                       
+
+consensus_LFFHG8           CACCCGGCCCGGACACGGACAGGNTTGACAGATTGATAGCTCTTTCTCGATTCCGTGGGT
+reference_gblock_f1r1      ------------ACAACAAAAAAAAAAAAAGATATAGGCCACAGTCTCAAGCACGTGGAT
+                                       ***   * *      * ****  *   * *  **** *   ***** *
+
+consensus_LFFHG8           GGTGGTGCATGGCCGTTCTTAGTTGGTGGAGCGATTTGTCTGGTTAATTCCGATAACGAA
+reference_gblock_f1r1      GAGGATGG----------------------------------------------------
+                           *  * **                                                     
+
+consensus_LFFHG8           CGAGACTCTGGCATGCTAACTAGTTACGCGACCCCCGAGCGGTCGGCGTCCCCCAACTTC
+reference_gblock_f1r1      ------------------------------------------------------------
+                                                                                       
+
+consensus_LFFHG8           TTAGAGGGACAAGTGGCGTTCAGCCACCCGAGATTGAGCAATAACAGGTCTGTGATGCCC
+reference_gblock_f1r1      -----------AGTC--GTACGCC--------GATGCGAAACAT----------------
+                                      ***   ** *  *          ** * ** *                 
+
+consensus_LFFHG8           TTAGATGTCCGGGGCTGCACGCGCGCTACACTGACTGGCTCAGCGTGTGCCTACCCTACG
+reference_gblock_f1r1      -----------CGGC---------------------------------------------
+                                       ***                                             
+
+consensus_LFFHG8           CCGGCAGGCGCGGGTAACCCGTTGAACCCCATTCACTCTGCGTTGATAAGCCCTGCCCTT
+reference_gblock_f1r1      ------------------------------------------------------------
+                                                                                       
+
+consensus_LFFHG8           TGTACACACCGCCCGTCGCTACTACCGATTGGATGGTTTAGTGAGGCCCTCGGATCGGCC
+reference_gblock_f1r1      ------------------------------------------------------------
+                                                                                       
+
+consensus_LFFHG8           CCGCCGGGGTCGGCCCACGGCCCTGGCGGAGCGCTGAGAAGACGGTCGAACTTGACTATC
+reference_gblock_f1r1      ------------------------------------------------------------
+                                                                                       
+
+consensus_LFFHG8           TAGAGGAAGTAAAAGTCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGNTCATTAAC
+reference_gblock_f1r1      ------------------------------------------------------------
+                                                                                       
+
+consensus_LFFHG8           GGAGCCCGGAGGGCGAGGCCCGCGGCGGCGCCGCCGCCGCCGCGCNCTTCCCTCCGCACA
+reference_gblock_f1r1      ------------------------------------------------------------
+                                                                                       
+
+consensus_LFFHG8           CCCACNCCCCCAAAAAAAAAAAANAAAGCTAAGNGAGGTGGTTGGANNNNTNNCCTGACC
+reference_gblock_f1r1      ------------------------------------------------------------
+                                                                                       
+
+consensus_LFFHG8           CCTCATNNACNNCTGCNNNNGCNAGATCGGAAGAGCACACGTCTGAACTCA
+reference_gblock_f1r1      --CACTGGCTCAGTACAGTTAAGAGATCGGAAGAGCACACGTCTGAACTC-
+                                *       * *       *************************** 

@@ -1,0 +1,16 @@
+name: plasmidsaurus-align
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - bedtools
+  - biopython
+  - jupyterlab
+  - matplotlib
+  - minimap2
+  - pandas
+  - pip
+  - python=3.11
+  - samtools
+  - seaborn
+prefix: /home/mcn26/.conda/envs/plasmidsaurus-align

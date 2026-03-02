@@ -1,0 +1,16 @@
+query	ref_start_0	ref_end_0	ref_span_bp	feature_type	feature_id	feature_start_0	feature_end_0	overlap_bp	feature_frac_covered
+795_LFFHG8_1	0	367	367	primer	F1 primer	0	22	22	1.000
+795_LFFHG8_1	0	367	367	misc_feature	MPRA_barcode	32	48	16	1.000
+795_LFFHG8_1	0	367	367	misc_feature	terminator	107	227	120	1.000
+795_LFFHG8_1	0	367	367	misc_feature	pA	241	254	13	1.000
+795_LFFHG8_1	0	367	367	misc_feature	parse_biosciences_extra	254	340	86	1.000
+795_LFFHG8_1	0	367	367	primer	R1 primer	347	367	20	1.000
+795_LFFHG8_1	0	367	367	primer	R3 primer	348	367	19	1.000
+3446_LFFHG8_1	0	300	300	primer	F1 primer	0	22	22	1.000
+3446_LFFHG8_1	0	300	300	misc_feature	MPRA_barcode	32	48	16	1.000
+3446_LFFHG8_1	0	300	300	misc_feature	terminator	107	227	120	1.000
+3446_LFFHG8_1	0	300	300	misc_feature	pA	241	254	13	1.000
+3446_LFFHG8_1	0	300	300	misc_feature	parse_biosciences_extra	254	340	46	0.535
+3685_LFFHG8_1	0	163	163	primer	F1 primer	0	22	22	1.000
+3685_LFFHG8_1	0	163	163	misc_feature	MPRA_barcode	32	48	16	1.000
+3685_LFFHG8_1	0	163	163	misc_feature	terminator	107	227	56	0.467
