@@ -6,6 +6,7 @@ __pycache__/
 results/**/*.bam
 results/**/*.bai
 results/**/*.paf
+results/**/*.paf.gz
 results/**/*.png
 results/**/*.fastq
 results/**/*.fastq.gz
@@ -20,3 +21,17 @@ results/**/*.xml
 
 # Script-local scratch outputs
 scripts/results/
+
+# Cached human reference bundles/indexes (large; reproducible via script)
+data/human_refs/**/*.fa
+data/human_refs/**/*.fa.gz
+data/human_refs/**/*.mmi
+
+# Optional per-read attribution tables can be large
+results/*/human_cdna_explainability*.per_read.tsv
+results/*/human_cdna_unexplained_vs_consensus.per_read.tsv
+
+# Seeded-consensus working intermediates (regenerable)
+results/*/*_human_unexplained.consensus.mmi
+results/*/*_human_unexplained.consensus_seed*
+results/*/*_human_unexplained.reads.fasta

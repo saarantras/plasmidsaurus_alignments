@@ -53,6 +53,61 @@ Outputs:
 - `results/<sample>/<sample>.depth_with_features.png`
 - `results/<sample>/<sample>.feature_mean_depth.png`
 
+## Human RNA-cDNA explainability (transcriptome-only)
+This workflow aligns each read to a human transcriptome reference and calls whether
+the read is "explained as human RNA cDNA".
+
+Definition (default):
+- `best_query_cov >= 0.50`
+- `best_identity >= 0.80`
+
+This is transcriptome-only by design (not a genome alignment workflow).
+
+### 1) Fetch/cache transcript reference
+```bash
+conda run -n plasmidsaurus-align bash scripts/fetch_human_transcriptome_refs.sh --release v48
+```
+
+Outputs:
+- `data/human_refs/v48/human_transcripts.fa.gz`
+- `data/human_refs/v48/human_transcripts.fa`
+- `data/human_refs/v48/human_transcripts.mmi`
+- `data/human_refs/v48/REFERENCE_INFO.tsv`
+
+### 2) Quantify per-read explainability
+```bash
+conda run -n plasmidsaurus-align python scripts/quantify_human_cdna_explained.py \
+  --reads data/reads/LFFHG8_fastq/LFFHG8_1_pcr1_sub5.fastq \
+  --ref-mmi data/human_refs/v48/human_transcripts.mmi \
+  --threads 8 \
+  --min-query-cov 0.50 \
+  --min-identity 0.80 \
+  --out-prefix results/LFFHG8_1_pcr1_sub5/human_cdna_explainability
+```
+
+Primary outputs:
+- `results/.../human_cdna_explainability.summary.tsv`
+- `results/.../human_cdna_explainability.length_binned.tsv`
+- `results/.../human_cdna_explainability.top_targets.tsv`
+- `results/.../human_cdna_explainability.threshold_grid.tsv`
+- `results/.../human_cdna_explainability.identity_hist.tsv`
+- `results/.../human_cdna_explainability.query_cov_hist.tsv`
+- `results/.../human_cdna_explainability.alignment.paf.gz`
+- optional detailed table: `results/.../human_cdna_explainability.per_read.tsv`
+
+Required columns in `per_read.tsv`:
+- `read_id`
+- `read_length`
+- `best_target`
+- `best_query_cov`
+- `best_identity`
+- `explained`
+
+Key metrics in `summary.tsv`:
+- `reads_explained_fraction = explained_reads / total_reads`
+- `bases_explained_fraction = explained_bases / total_bases`
+- `mapped_to_human_fraction = mapped_to_human_reads / total_reads`
+
 ## LFFHG8 + gblock_f1r1 run status
 - Reference provided and used: `data/references/gblock_f1r1.gb`
 - FASTQ used: `data/reads/LFFHG8_fastq/LFFHG8_1_pcr1_sub5.fastq` (unpacked from `data/reads/LFFHG8_fastq.zip`)

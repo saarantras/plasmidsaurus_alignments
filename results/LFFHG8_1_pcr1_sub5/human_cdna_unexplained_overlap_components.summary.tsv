@@ -1,0 +1,13 @@
+metric	value
+reads_total	3966.0
+reads_seen_in_paf	3193.0
+reads_no_any_overlap_record	773.0
+min_overlap	150.0
+min_identity	0.85
+edges_total_nonself	82430.0
+edges_kept_filtered	32620.0
+n_components	2942.0
+largest_component_reads	893.0
+largest_component_fraction	0.22516389309127585
+singletons	2909.0
+components_ge_10	3.0

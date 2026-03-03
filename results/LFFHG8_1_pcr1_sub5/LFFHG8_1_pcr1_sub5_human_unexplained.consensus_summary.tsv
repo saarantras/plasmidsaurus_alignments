@@ -1,0 +1,2 @@
+sample_id	seed_read_id	seed_length	consensus_length	consensus_N_count	mapped_reads	positions	covered_positions	mean_depth	covered_fraction
+LFFHG8_1_pcr1_sub5_human_unexplained	1968_LFFHG8_1	875	875	20	723 (17.48)	875	875	150.392	1.0000
